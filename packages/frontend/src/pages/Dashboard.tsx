@@ -76,7 +76,7 @@ export default observer(() => {
 
   return (
     <div>
-      <h1>Git Dashboard</h1>
+      <h1>git dashboard</h1>
       <div className="container">
         <div className="info-container">
           <div className="info-item">
@@ -103,7 +103,7 @@ export default observer(() => {
           <hr />
 
           <div className="info-item">
-            <h3>Latest Stats</h3>
+            <h3>git reputation</h3>
             <Tooltip text="This is all the data the user has received. The user cannot prove data from the current epoch." />
           </div>
           {userContext.data.map((data, i) => {

@@ -1,16 +1,18 @@
-# create-unirep-app
+# zk-dev
 
-This is a demo app of a [unirep](https://github.com/Unirep/Unirep) attester. In this demo app, users can request data from the example attester. After transition, user can prove how much data he has.
+This is a demo app of a [unirep](https://github.com/Unirep/Unirep) reputation based git server.
+
+In this demo app, users can push commits to different branches based on their reputation.
+Contributing to a project increases their reputation, while spamming or pushing bad commits decreases their reputation (not yet implemented).
+The reputation is issues by the organization
 
 > See: [Users and Attesters](https://developer.unirep.io/docs/protocol/users-and-attesters)
 
 ## 1. Installation
 
 ```shell
-npx create-unirep-app
+yarn
 ```
-
-Then `cd` into the directory that was created.
 
 ## 2 Start with each daemon
 
