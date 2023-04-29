@@ -53,3 +53,4 @@ It will be running at: http://localhost:3000/
 added new lines
 more lines
 something every dev should know!
+an important note
